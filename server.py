@@ -60,6 +60,13 @@ def send_message():
     return jsonify({"message": "Message sent successfully"})
 
 
+# Route: Retrieve all users
+@app.route('/get_users', methods=['GET'])
+def get_all_users():
+    print(users_collection)
+    users = users_collection.find({}, {"_id": 0, "username": 1})  # Fetch only usernames, exclude `_id`
+    user_list = [user['username'] for user in users]
+    return jsonify(user_list), 200
 
 # Route: Retrieve chat history
 @app.route('/history', methods=['GET'])
