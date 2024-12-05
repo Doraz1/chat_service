@@ -1,9 +1,6 @@
-# chat service for learning scale-up apps
-the first thing to do is createa  config.py with custom parameters for the project - these parameters are personal and should not be shared, and area must for the server to run
-go to mongoDB and ensure the ip is configured properly - otherwise the api may prevent access for your server
-Then# Chat Service for Learning Scale-Up Apps
-
-This project is a simple chat service designed to help users understand how to scale up applications. Follow the steps below to set up and run the project on your local machine.
+# Chat service for learning scale-up apps
+This project is a simple chat service designed to help me understand the secrets of back-end programming users understand how to scale up applications.
+Follow the steps below to set up and run the project on your local machine
 
 ## Setup Instructions
 
