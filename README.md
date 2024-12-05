@@ -21,16 +21,14 @@ Start the server to handle backend requests by running:
 ```bash
 python server.py
 ```
-, run the server to accept and process all requests in back end
-then, run the client-side code. code may include requests like get all users, send a message and get the message history between two users\
-all code is updated in the mongoDB defined in the config.py file
+Run the server to accept and process all requests in back end.
 
 ### 4. Run the Client-Side Code
-Execute the client-side code to interact with the server. This may include operations such as:
-
-Get all users
-Send messages
-Receive messages
+Execute the client-side code to interact with the server. This may include operations such as
+- register user
+- get all users 
+- send a message between users
+- get the message history between two users
 
 ### 5. Data Storage
 All data is stored in the MongoDB database specified in the config.py file.
