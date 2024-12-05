@@ -20,6 +20,7 @@ Ensure your MongoDB instance is set up correctly and accessible. Make sure your 
 Start the server to handle backend requests by running:  
 ```bash
 python server.py
+```
 , run the server to accept and process all requests in back end
 then, run the client-side code. code may include requests like get all users, send a message and get the message history between two users\
 all code is updated in the mongoDB defined in the config.py file
